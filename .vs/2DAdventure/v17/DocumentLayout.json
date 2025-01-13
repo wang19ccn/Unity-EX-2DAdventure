@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "H:\\Snow_Unity\\001 Project\\2DAdventure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|H:\\Snow_Unity\\001 Project\\2DAdventure\\assets\\scripts\\general\\physicscheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|H:\\Snow_Unity\\001 Project\\2DAdventure\\assets\\scripts\\general\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|H:\\Snow_Unity\\001 Project\\2DAdventure\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|H:\\Snow_Unity\\001 Project\\2DAdventure\\assets\\scripts\\general\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|h:\\snow_unity\\001 project\\2dadventure\\assets\\scripts\\general\\physicscheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\physicscheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\boarchasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|h:\\snow_unity\\001 project\\2dadventure\\assets\\scripts\\audio\\audiodefination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|H:\\Snow_Unity\\001 Project\\2DAdventure\\assets\\scripts\\audio\\audiodefination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio\\audiodefination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|h:\\snow_unity\\001 project\\2dadventure\\assets\\scripts\\scriptableobject\\playaudioeventso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|H:\\Snow_Unity\\001 Project\\2DAdventure\\assets\\scripts\\scriptableobject\\playaudioeventso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobject\\playaudioeventso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|H:\\Snow_Unity\\001 Project\\2DAdventure\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|H:\\Snow_Unity\\001 Project\\2DAdventure\\assets\\scripts\\general\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|H:\\Snow_Unity\\001 Project\\2DAdventure\\assets\\scripts\\scriptableobject\\voideventso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|H:\\Snow_Unity\\001 Project\\2DAdventure\\assets\\scripts\\general\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|H:\\Snow_Unity\\001 Project\\2DAdventure\\assets\\scripts\\ui\\playerstatbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{268CE8B5-D1D3-87F1-5136-ADD664A907F7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\playerstatbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -94,11 +94,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AudioDefination.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Audio\\AudioDefination.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Audio\\AudioDefination.cs",
@@ -106,12 +106,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Audio\\AudioDefination.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T08:01:16.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T08:01:16.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "PlayAudioEventSO.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\ScriptableObject\\PlayAudioEventSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObject\\PlayAudioEventSO.cs",
@@ -119,12 +118,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ScriptableObject\\PlayAudioEventSO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T07:55:09.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T07:55:09.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Audio\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Audio\\AudioManager.cs",
@@ -132,12 +130,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Audio\\AudioManager.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T07:51:37.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T07:51:37.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "VoidEventSO.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\ScriptableObject\\VoidEventSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObject\\VoidEventSO.cs",
@@ -149,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CameraControl.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Utilities\\CameraControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\CameraControl.cs",
@@ -197,19 +194,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "Character.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\General\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\General\\Character.cs",
               "ToolTip": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\General\\Character.cs",
               "RelativeToolTip": "Assets\\Scripts\\General\\Character.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwC8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T14:34:26.519Z"
+              "WhenOpened": "2024-12-18T14:34:26.519Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "BoarChaseState.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Enemy\\BoarChaseState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\BoarChaseState.cs",
@@ -217,12 +215,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\BoarChaseState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T14:30:56.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T14:30:56.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "BoarPatrolState.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Enemy\\BoarPatrolState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\BoarPatrolState.cs",
@@ -230,12 +227,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\BoarPatrolState.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T15:46:05.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T15:46:05.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Enemy.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
@@ -243,12 +239,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAuwEYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T15:26:08.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T15:26:08.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Enums.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Utilities\\Enums.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\Enums.cs",
@@ -260,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "BaseState.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Enemy\\BaseState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\BaseState.cs",
@@ -272,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Boar.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Enemy\\Boar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Boar.cs",
@@ -284,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AttackFinish.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\General\\AttackFinish.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\General\\AttackFinish.cs",
@@ -296,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PlayerAnimation.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Player\\PlayerAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAnimation.cs",
@@ -308,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "HurtAnimation.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Player\\HurtAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\HurtAnimation.cs",
@@ -320,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PhysicsCheck.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\General\\PhysicsCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\General\\PhysicsCheck.cs",
@@ -333,26 +328,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
               "ToolTip": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAD4v5IAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAA9wFYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T16:02:52.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Attack.cs",
               "DocumentMoniker": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\General\\Attack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\General\\Attack.cs",
               "ToolTip": "H:\\Snow_Unity\\001 Project\\2DAdventure\\Assets\\Scripts\\General\\Attack.cs",
               "RelativeToolTip": "Assets\\Scripts\\General\\Attack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T14:37:06.042Z",
               "EditorCaption": ""
