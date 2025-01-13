@@ -142,9 +142,18 @@ public class PlayerController : MonoBehaviour
     {
         isHurt = true;
         rb.velocity = Vector2.zero;
-        Vector2 dir = new Vector2((transform.position.x - attacker.position.x), 0).normalized;
 
-        rb.AddForce(dir * hurtForce, ForceMode2D.Impulse);
+        if (attacker.CompareTag("Spike"))
+        {
+            Vector2 dir = new Vector2(-transform.localScale.x, 0).normalized;
+            rb.AddForce(dir * hurtForce, ForceMode2D.Impulse);
+        } 
+        else
+        {
+            Vector2 dir = new Vector2((transform.position.x - attacker.position.x), 0).normalized;
+            rb.AddForce(dir * hurtForce, ForceMode2D.Impulse);
+        }
+
     }
 
     public void PlayerDead()

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bounds
   - Water
+  - Spike
   layers:
   - Default
   - TransparentFX
