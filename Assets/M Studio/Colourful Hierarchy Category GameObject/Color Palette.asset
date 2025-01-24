@@ -35,9 +35,9 @@ MonoBehaviour:
     fontStyle: 1
   - keyChar: $
     textColor: {r: 1, g: 1, b: 1, a: 1}
-    backgroundColor: {r: 0.5903926, g: 0.12967247, b: 0.8867924, a: 1}
-    textAlignment: 4
-    fontStyle: 0
+    backgroundColor: {r: 0.8792453, g: 0.35667494, b: 0.8685806, a: 1}
+    textAlignment: 5
+    fontStyle: 1
   - keyChar: $$
     textColor: {r: 1, g: 1, b: 1, a: 1}
     backgroundColor: {r: 0.25792086, g: 0.53965, b: 0.78113204, a: 1}
