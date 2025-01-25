@@ -345,7 +345,7 @@ Transform:
   m_GameObject: {fileID: 157648640}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.2800007, y: 4.1799994, z: -10}
+  m_LocalPosition: {x: 47.95, y: 7.17, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -920,7 +920,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.2800007, y: 4.1799994, z: -10}
+  m_LocalPosition: {x: 47.95, y: 7.17, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1475,7 +1475,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1058412773}
   - component: {fileID: 1058412774}
-  m_Layer: 7
+  - component: {fileID: 1058412775}
+  - component: {fileID: 1058412776}
+  m_Layer: 0
   m_Name: Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1543,6 +1545,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.69, y: 1.09}
   m_EdgeRadius: 0
+--- !u!114 &1058412775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058412772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f92399cbb3deb43b160b5fd16be962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTrans: {fileID: 1690792727}
+  signSprite: {fileID: 1810808971}
+--- !u!114 &1058412776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058412772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa0af081153a3b46a4a8e514aa08fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAudioEventSO: {fileID: 11400000, guid: c36f9d5ef1cc8f94bbb7cda5421d9703, type: 2}
+  audioClip: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
+  playOnEnable: 1
 --- !u!1 &1146915600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1731,6 +1762,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284082195}
   m_CullTransparentMesh: 1
+--- !u!1 &1342907412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1342907413}
+  m_Layer: 0
+  m_Name: SceneLoad Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1342907413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342907412}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1344040446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,6 +1886,7 @@ GameObject:
   - component: {fileID: 1690792731}
   - component: {fileID: 1690792733}
   - component: {fileID: 1690792734}
+  - component: {fileID: 1690792735}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -1892,7 +1955,7 @@ Transform:
   m_GameObject: {fileID: 1690792725}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.28, y: 3.05, z: 0}
+  m_LocalPosition: {x: 47.95, y: 6.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2125,6 +2188,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1690792735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690792725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa0af081153a3b46a4a8e514aa08fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAudioEventSO: {fileID: 11400000, guid: c36f9d5ef1cc8f94bbb7cda5421d9703, type: 2}
+  audioClip: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+  playOnEnable: 1
 --- !u!1 &1712178694
 GameObject:
   m_ObjectHideFlags: 3
@@ -2274,7 +2352,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810808971}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2815,6 +2893,7 @@ SceneRoots:
   - {fileID: 513240802}
   - {fileID: 1930519364}
   - {fileID: 1977035866}
+  - {fileID: 1342907413}
   - {fileID: 524907438}
   - {fileID: 174718232}
   - {fileID: 51321457}
