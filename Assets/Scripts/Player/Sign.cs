@@ -13,6 +13,7 @@ public class Sign : MonoBehaviour
     public GameObject signSprite;
     private IInteractable targetItem;
     private bool canPress;
+    private String currentInput;
 
     private void Awake()
     {
@@ -64,9 +65,11 @@ public class Sign : MonoBehaviour
             switch (d.device)
             {
                 case Keyboard:
+                    currentInput = "keyboard";
                     anim.Play("keyboard");
                     break;
                 case XInputController:
+                    currentInput = "xbox";
                     anim.Play("xbox");
                     break;
             }
@@ -79,6 +82,16 @@ public class Sign : MonoBehaviour
         {
             canPress = true;
             targetItem = collision.GetComponent<IInteractable>();
+
+            switch (currentInput)
+            {
+                case "keyboard":
+                    anim.Play("keyboard");
+                    break;
+                case "xbox":
+                    anim.Play("xbox");
+                    break;
+            }
         } 
         //else // 这里添加会导致进入场景之后还在传送点的时候没有按键提示
         //{
