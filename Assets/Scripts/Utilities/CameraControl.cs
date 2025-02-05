@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour
 {
+    [Header("事件监听")]
+    public VoidEventSO afterSceneLoadedEvent;
+
     private CinemachineConfiner2D confiner2D;
     public CinemachineImpulseSource impulseSource;
     public VoidEventSO cameraShakeEvent;
@@ -18,11 +21,18 @@ public class CameraControl : MonoBehaviour
     private void OnEnable()
     {
         cameraShakeEvent.OnEventRaised += OnCameraShakeEvent;
+        afterSceneLoadedEvent.OnEventRaised += OnAfterSceneLoadedEvent;
     }
 
     private void OnDisable()
     {
         cameraShakeEvent.OnEventRaised -= OnCameraShakeEvent;
+        afterSceneLoadedEvent.OnEventRaised -= OnAfterSceneLoadedEvent;
+    }
+
+    private void OnAfterSceneLoadedEvent()
+    {
+        GetNewCameraBounds();
     }
 
     private void OnCameraShakeEvent()
@@ -34,10 +44,10 @@ public class CameraControl : MonoBehaviour
     // 前面的问的为什么 不自动获取bounds？你问的意思应该是 为什么调用GetNewCameraBounds(); 不放在Awake里面？然后觉得Awake和start一样都可以调用 为什么写两个是吧？
     // 并不是像你所想为什么不能偷懒调用GetNewCameraBounds()也放在Awake里面，首先是书写习惯，其次放在Start是使用该脚本时才调用该方法，Awake则是没使用到该脚本就调用了。。。
     // TODO: 场景切换后更改
-    private void Start()
-    {
-        GetNewCameraBounds();
-    }
+    //private void Start()
+    //{
+    //    GetNewCameraBounds();
+    //}
 
     private void GetNewCameraBounds()
     {

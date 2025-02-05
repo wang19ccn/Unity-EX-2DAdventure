@@ -29,6 +29,11 @@ public class Sign : MonoBehaviour
         playerInput.Gameplay.Confirm.started += OnConfirm;
     }
 
+    private void OnDisable()
+    {
+        canPress = false;
+    }
+
     private void Update()
     {
         signSprite.GetComponent<SpriteRenderer>().enabled = canPress;
@@ -74,10 +79,11 @@ public class Sign : MonoBehaviour
         {
             canPress = true;
             targetItem = collision.GetComponent<IInteractable>();
-        } else
-        {
-            canPress = false;
-        }
+        } 
+        //else // 这里添加会导致进入场景之后还在传送点的时候没有按键提示
+        //{
+        //    canPress = false;
+        //}
     }
 
     private void OnTriggerExit2D(Collider2D collision)
