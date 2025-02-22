@@ -11,16 +11,20 @@ public class SceneLoader : MonoBehaviour
 {
     public Transform playerTrans;
     public Vector3 firstPosition;
+    public Vector3 menuPosition;
 
     [Header("事件监听")]
     public SceneLoadEventSO loadEventSO;
-    public GameSceneSO firstLoadScene;
+    public VoidEventSO newGameEvent;
 
     [Header("广播")]
     public VoidEventSO afterSceneLoadedEvent;
     public FadeEventSO fadeEvent;
+    public SceneLoadEventSO unloadedSceneEvent;
 
-
+    [Header("场景")]
+    public GameSceneSO firstLoadScene;
+    public GameSceneSO menuScene;
     [SerializeField] private GameSceneSO currentLoadScene; // 序列化将其展示在界面
     private GameSceneSO sceneToLoad;
     private Vector3 positionToGo;
@@ -41,17 +45,20 @@ public class SceneLoader : MonoBehaviour
     // TODO: 做完MainMenu再改
     private void Start()
     {
-        NewGame();
+        loadEventSO.RaiseLoadRequestEvent(menuScene, menuPosition, true);
+        //NewGame();
     }
 
     private void OnEnable()
     {
         loadEventSO.LoadRequestEvent += OnLoadRequestEvent;
+        newGameEvent.OnEventRaised += NewGame;
     }
 
     private void OnDisable()
     {
         loadEventSO.LoadRequestEvent -= OnLoadRequestEvent;
+        newGameEvent.OnEventRaised -= NewGame;
     }
 
     private void NewGame()
@@ -95,6 +102,10 @@ public class SceneLoader : MonoBehaviour
         }
 
         yield return new WaitForSeconds(fadeDuration);
+
+        // 广播事件调整血条显示
+        unloadedSceneEvent.RaiseLoadRequestEvent(sceneToLoad, positionToGo, true);
+
         yield return currentLoadScene.sceneReference.UnLoadScene();
 
         // 关闭人物
